@@ -1,0 +1,71 @@
+{
+    "stac_version": "1.0.0",
+    "id": "nesdis_blendedsic_nhem_daily",
+    "type": "Collection",
+    "title": "X-Experimental: Sea Ice Concentration, AMSR2/VIIRS, Arctic, 1km, Blended, UW-CIMSS, 2023-present, Daily",
+    "description": "This is a Blended Sea Ice Concentration product that combines clear-sky Visible and Infrared Imager/Radiometer Suite (VIIRS) ice concentration from NOAA-20 with that comes from the AMSR2 NASA Team-2 10 km product. The output is remapped into 1-km EASE2 grid cells with a nominal resolution of at least 5-km. The NDE cloud mask is used to screen out cloudy VIIRS pixels. When the cloud mask for a data point is determined to be confidently clear, the output concentration in the blended product is 100% VIIRS. Otherwise, the Best Linear Unbiased Estimator equation is used to determine the output concentration (see https://www.sciencedirect.com/topics/mathematics/linear-unbiased-estimator#:~:text=Under%20assumptions%20V%20and%20VI,(Gauss%E2%80%93Markov%20theorem for more information on method).",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180.0,
+                    30.0,
+                    180.0,
+                    90.0
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "1950-01-01T12:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": "stac_catalog/datasets/nesdis_blendedsic_nhem_daily.json"
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json"
+        },
+        {
+            "rel": "data",
+            "href": "https://polarwatch.noaa.gov/erddap/info/nesdis_blendedsic_nhem_daily/index.html",
+            "type": "text/html"
+        }
+    ],
+    "license": "These data may be redistributed and used without restriction.",
+    "keywords": [
+        "EARTH SCIENCE",
+        "CRYOSPHERE",
+        "SEA ICE",
+        "SEA ICE CONCENTRATION",
+        "EARTH SCIENCE",
+        "BLENDED PRODUCT",
+        "AMSR2",
+        "VIIRS"
+    ],
+    "providers": [
+        {
+            "name": "NOAA NESDIS, UW",
+            "roles": [
+                "creator"
+            ],
+            "url": "stratus.ssec.wisc.edu"
+        },
+        {
+            "name": "Cooperative Institute for Meteorological Studies, University of Wisconsin at Madison",
+            "roles": [
+                "institution"
+            ]
+        }
+    ],
+    "proj:proj4": "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+    "proj:code": "EPSG:6931",
+    "proj:wkt2": "PROJCS[\"NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"Unspecified datum based upon the Hughes 1980 ellipsoid\",DATUM[\"Not_specified_based_on_Hughes_1980_ellipsoid\",SPHEROID[\"Hughes 1980\",6378273,298.279411123061,AUTHORITY[\"EPSG\",\"7058\"]],AUTHORITY[\"EPSG\",\"6054\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4054\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],AUTHORITY[\"EPSG\",\"3411\"],AXIS[\"X\",UNKNOWN],AXIS[\"Y\",UNKNOWN]]"
+}
