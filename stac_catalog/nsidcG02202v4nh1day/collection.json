@@ -34,8 +34,7 @@
             "href": "../catalog.json"
         },
         {
-            "rel": "alternate",
-            "title": "Data on ERDDAP",
+            "rel": "data",
             "href": "https://polarwatch.noaa.gov/erddap/info/nsidcG02202v4nh1day/index.html",
             "type": "text/html"
         }

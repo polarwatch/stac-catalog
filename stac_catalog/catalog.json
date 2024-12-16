@@ -1,22 +1,23 @@
 {
-    "stac_version": "1.1.0",
+    "stac_version": "1.0.0",
     "id": "NOAA PolarWatch Polar Data Catalog",
     "type": "Catalog",
     "description": "NOAA PolarWatch Test catalog",
     "links": [
+        "https://polarwatch.noaa.gov",
         {
             "rel": "child",
-            "href": "datasets/nesdis_blendedsic_nhem_daily.json",
+            "href": "nesdis_blendedsic_nhem_daily/collection.json",
             "title": "X-Experimental: Sea Ice Concentration, AMSR2/VIIRS, Arctic, 1km, Blended, UW-CIMSS, 2023-present, Daily"
         },
         {
             "rel": "child",
-            "href": "datasets/ncei_polarAPPX20_nhem.json",
+            "href": "ncei_polarAPPX20_nhem/collection.json",
             "title": "Sea Ice Thickness and Multi-variable Extended AVHRR Polar Pathfinder APP-X NCEI Climate Data Record V2, Arctic, 1982-Present, Twice Daily"
         },
         {
             "rel": "child",
-            "href": "datasets/nsidcG02202v4nh1day.json",
+            "href": "nsidcG02202v4nh1day/collection.json",
             "title": "Sea Ice Concentration, NOAA/NSIDC Climate Data Record V4, Northern Hemisphere, 25km, Science Quality, 1978-Present, Daily"
         }
     ]
