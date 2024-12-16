@@ -1,5 +1,5 @@
 # stac-catalog
-
+```
 /stac-catalogs/
   ├── catalog.json
   ├── dataset_id-1/
@@ -14,3 +14,4 @@
   │     │     ├── filename-1.json
   │     │     ├── filename-2.json
   │     │     └── ...
+```
