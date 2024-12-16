@@ -1,0 +1,49 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241211_c20241212-tif",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -4512000.0,
+          -4512000.0
+        ],
+        [
+          -4512000.0,
+          4512000.0
+        ],
+        [
+          4512000.0,
+          4512000.0
+        ],
+        [
+          4512000.0,
+          -4512000.0
+        ],
+        [
+          -4512000.0,
+          -4512000.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -4512000.0,
+    -4512000.0,
+    4512000.0,
+    4512000.0
+  ],
+  "properties": {
+    "datetime": "2024-12-11T00:00:00Z"
+  },
+  "links": [],
+  "assets": {
+    "image": {
+      "href": "https://polarwatch.s3.us-west-2.amazonaws.com/blendedsic_nhem/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241211_c20241212.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  }
+}

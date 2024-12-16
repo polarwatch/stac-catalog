@@ -1,5 +1,5 @@
 {
-    "stac_version": "1.0.0",
+    "stac_version": "1.1.0",
     "id": "nsidcG02202v4nh1day",
     "type": "Collection",
     "title": "Sea Ice Concentration, NOAA/NSIDC Climate Data Record V4, Northern Hemisphere, 25km, Science Quality, 1978-Present, Daily",
@@ -27,7 +27,7 @@
     "links": [
         {
             "rel": "self",
-            "href": "stac_catalog/datasets/nsidcG02202v4nh1day.json"
+            "href": "stac_catalog/nsidcG02202v4nh1day/collection.json"
         },
         {
             "rel": "root",
@@ -54,15 +54,9 @@
         {
             "name": "NSIDC",
             "roles": [
-                "creator"
+                "producer"
             ],
             "url": "https://nsidc.org/"
-        },
-        {
-            "name": null,
-            "roles": [
-                "institution"
-            ]
         }
     ],
     "proj:proj4": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +k=1 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs",

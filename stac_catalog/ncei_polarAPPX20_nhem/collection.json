@@ -1,5 +1,5 @@
 {
-    "stac_version": "1.0.0",
+    "stac_version": "1.1.0",
     "id": "ncei_polarAPPX20_nhem",
     "type": "Collection",
     "title": "Sea Ice Thickness and Multi-variable Extended AVHRR Polar Pathfinder APP-X NCEI Climate Data Record V2, Arctic, 1982-Present, Twice Daily",
@@ -27,11 +27,11 @@
     "links": [
         {
             "rel": "self",
-            "href": "stac_catalog/datasets/ncei_polarAPPX20_nhem.json"
+            "href": "stac_catalog/ncei_polarAPPX20_nhem/collection.json"
         },
         {
             "rel": "root",
-            "href": "../catalog.json"
+            "href": "stac_catalog/catalog.json"
         },
         {
             "rel": "data",
@@ -54,15 +54,9 @@
         {
             "name": "NOAA/NMFS/SWFSC/ERD and NOAA/NESDIS/CoastWatch West Coast Node",
             "roles": [
-                "creator"
+                "producer"
             ],
             "url": "stratus.ssec.wisc.edu"
-        },
-        {
-            "name": "NOAA NESDIS",
-            "roles": [
-                "institution"
-            ]
         }
     ],
     "proj:code": "EPSG:3408"
