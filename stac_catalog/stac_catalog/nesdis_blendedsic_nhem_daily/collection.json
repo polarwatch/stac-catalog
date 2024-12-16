@@ -1,0 +1,93 @@
+{
+  "type": "Collection",
+  "id": "nesdis_blendedsic_nhem_daily",
+  "stac_version": "1.0.0",
+  "description": "This is a Blended Sea Ice Concentration product that combines clear-sky Visible and Infrared Imager/Radiometer Suite (VIIRS) ice concentration from NOAA-20 with that comes from the AMSR2 NASA Team-2 10 km product. The output is remapped into 1-km EASE2 grid cells with a nominal resolution of at least 5-km. The NDE cloud mask is used to screen out cloudy VIIRS pixels. When the cloud mask for a data point is determined to be confidently clear, the output concentration in the blended product is 100% VIIRS. Otherwise, the Best Linear Unbiased Estimator equation is used to determine the output concentration (see https://www.sciencedirect.com/topics/mathematics/linear-unbiased-estimator#:~:text=Under%20assumptions%20V%20and%20VI,(Gauss%E2%80%93Markov%20theorem for more information on method).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/collection.json",
+      "type": "application/json",
+      "title": "X-Experimental: Sea Ice Concentration, AMSR2/VIIRS, Arctic, 1km, Blended, UW-CIMSS, 2023-present, Daily"
+    },
+    {
+      "rel": "data",
+      "href": "https://polarwatch.noaa.gov/erddap/info/nesdis_blendedsic_nhem_daily/index.html",
+      "type": "text/html"
+    },
+    {
+      "rel": "item",
+      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241211_c20241212-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241211_c20241212-tif.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241212_c20241213-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241212_c20241213-tif.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240208_c20240209-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240208_c20240209-tif.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240207_c20240208-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240207_c20240208-tif.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif.json",
+      "type": "application/json"
+    }
+  ],
+  "proj:proj4": "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+  "proj:code": "EPSG:6931",
+  "proj:wkt2": "PROJCS[\"NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"Unspecified datum based upon the Hughes 1980 ellipsoid\",DATUM[\"Not_specified_based_on_Hughes_1980_ellipsoid\",SPHEROID[\"Hughes 1980\",6378273,298.279411123061,AUTHORITY[\"EPSG\",\"7058\"]],AUTHORITY[\"EPSG\",\"6054\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4054\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],AUTHORITY[\"EPSG\",\"3411\"],AXIS[\"X\",UNKNOWN],AXIS[\"Y\",UNKNOWN]]",
+  "title": "X-Experimental: Sea Ice Concentration, AMSR2/VIIRS, Arctic, 1km, Blended, UW-CIMSS, 2023-present, Daily",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          30.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1950-01-01T12:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-1.0",
+  "keywords": [
+    "EARTH SCIENCE",
+    "CRYOSPHERE",
+    "SEA ICE",
+    "SEA ICE CONCENTRATION",
+    "EARTH SCIENCE",
+    "BLENDED PRODUCT",
+    "AMSR2",
+    "VIIRS"
+  ],
+  "providers": [
+    {
+      "name": "NOAA NESDIS, UW",
+      "roles": [
+        "producer"
+      ],
+      "url": "stratus.ssec.wisc.edu"
+    }
+  ]
+}

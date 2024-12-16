@@ -1,0 +1,62 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -4512000.0,
+          -4512000.0
+        ],
+        [
+          -4512000.0,
+          4512000.0
+        ],
+        [
+          4512000.0,
+          4512000.0
+        ],
+        [
+          4512000.0,
+          -4512000.0
+        ],
+        [
+          -4512000.0,
+          -4512000.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -4512000.0,
+    -4512000.0,
+    4512000.0,
+    4512000.0
+  ],
+  "properties": {
+    "datetime": "2024-12-10T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://shospital.github.io/stac-catalog/stac_catalog/stac_catalog/nesdis_blendedsic_nhem_daily/items/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif.json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://shospital.github.io/stac-catalog/stac_catalog/nesdis_blendedsic_nhem_daily/collection.json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://shospital.github.io/stac-catalog/stac_catalog/nesdis_blendedsic_nhem_daily/collection.json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://polarwatch.s3.us-west-2.amazonaws.com/blendedsic_nhem/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  }
+}
