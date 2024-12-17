@@ -4,7 +4,6 @@
     "type": "Catalog",
     "description": "NOAA PolarWatch Test catalog",
     "links": [
-        "https://polarwatch.noaa.gov",
         {
             "rel": "child",
             "href": "nesdis_blendedsic_nhem_daily/collection.json",
