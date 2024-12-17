@@ -30,10 +30,6 @@
             "href": "stac_catalog/ncei_polarAPPX20_nhem/collection.json"
         },
         {
-            "rel": "root",
-            "href": "stac_catalog/catalog.json"
-        },
-        {
             "rel": "data",
             "href": "https://polarwatch.noaa.gov/erddap/info/ncei_polarAPPX20_nhem/index.html",
             "type": "text/html"

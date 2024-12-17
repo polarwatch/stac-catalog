@@ -42,15 +42,14 @@
   "links": [
     {
       "rel": "self",
-      "href": "https://shospital.github.io/stac-catalog/stac_catalog/stac_catalog/nesdis_blendedsic_nhem_daily/items/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif.json"
-    },
-    {
-      "rel": "parent",
-      "href": "https://shospital.github.io/stac-catalog/stac_catalog/nesdis_blendedsic_nhem_daily/collection.json"
+      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/items/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif.json",
+      "type": "application/json"
     },
     {
       "rel": "collection",
-      "href": "https://shospital.github.io/stac-catalog/stac_catalog/nesdis_blendedsic_nhem_daily/collection.json"
+      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/collection.json",
+      "type": "application/json",
+      "title": "X-Experimental: Sea Ice Concentration, AMSR2/VIIRS, Arctic, 1km, Blended, UW-CIMSS, 2023-present, Daily"
     }
   ],
   "assets": {
@@ -58,5 +57,6 @@
       "href": "https://polarwatch.s3.us-west-2.amazonaws.com/blendedsic_nhem/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206.tif",
       "type": "image/tiff; application=geotiff"
     }
-  }
+  },
+  "collection": "nesdis_blendedsic_nhem_daily"
 }

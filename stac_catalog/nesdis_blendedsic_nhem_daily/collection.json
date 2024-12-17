@@ -6,9 +6,14 @@
   "links": [
     {
       "rel": "root",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/collection.json",
+      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/collection.json",
       "type": "application/json",
       "title": "X-Experimental: Sea Ice Concentration, AMSR2/VIIRS, Arctic, 1km, Blended, UW-CIMSS, 2023-present, Daily"
+    },
+    {
+      "rel": "self",
+      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/collection.json",
+      "type": "application/json"
     },
     {
       "rel": "data",
@@ -17,62 +22,32 @@
     },
     {
       "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241211_c20241212-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241211_c20241212-tif.json",
+      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241211_c20241212-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241211_c20241212-tif.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241212_c20241213-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241212_c20241213-tif.json",
+      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241212_c20241213-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241212_c20241213-tif.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240208_c20240209-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240208_c20240209-tif.json",
+      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240208_c20240209-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240208_c20240209-tif.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240207_c20240208-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240207_c20240208-tif.json",
+      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240207_c20240208-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240207_c20240208-tif.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif.json",
+      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241211_c20241212-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241211_c20241212-tif.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241212_c20241213-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241212_c20241213-tif.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240208_c20240209-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240208_c20240209-tif.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240207_c20240208-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240207_c20240208-tif.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif.json",
+      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif.json",
       "type": "application/json"
     }
   ],

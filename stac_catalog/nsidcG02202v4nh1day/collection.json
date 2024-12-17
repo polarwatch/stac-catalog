@@ -30,10 +30,6 @@
             "href": "stac_catalog/nsidcG02202v4nh1day/collection.json"
         },
         {
-            "rel": "root",
-            "href": "../catalog.json"
-        },
-        {
             "rel": "data",
             "href": "https://polarwatch.noaa.gov/erddap/info/nsidcG02202v4nh1day/index.html",
             "type": "text/html"
