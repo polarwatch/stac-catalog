@@ -42,7 +42,7 @@
   "links": [
     { 
       "rel": "self",
-      "href": "./items/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif.json",
+      "href": "items/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20240205_c20240206-tif.json",
       "type": "application/json"
     },
     {
