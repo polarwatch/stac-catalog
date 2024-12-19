@@ -1,8 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
   "id": "Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif",
+  "properties": {
+    "datetime": "2024-12-10T00:00:00Z"
+  },
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -30,24 +32,21 @@
       ]
     ]
   },
-  "bbox": [
-    -4512000.0,
-    -4512000.0,
-    4512000.0,
-    4512000.0
-  ],
-  "properties": {
-    "datetime": "2024-12-10T00:00:00Z"
-  },
   "links": [
     {
       "rel": "self",
-      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/items/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif.json",
+      "href": "/Users/sunbak/PolarWatch/codebase/stac-creation/stac/nesdis_blendedsic_nhem_daily/items/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211-tif.json",
       "type": "application/json"
     },
     {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "X-Experimental: Sea Ice Concentration, AMSR2/VIIRS, Arctic, 1km, Blended, UW-CIMSS, 2023-present, Daily"
+    },
+    {
       "rel": "collection",
-      "href": "./stac_catalog/nesdis_blendedsic_nhem_daily/collection.json",
+      "href": "../collection.json",
       "type": "application/json",
       "title": "X-Experimental: Sea Ice Concentration, AMSR2/VIIRS, Arctic, 1km, Blended, UW-CIMSS, 2023-present, Daily"
     }
@@ -55,8 +54,16 @@
   "assets": {
     "image": {
       "href": "https://polarwatch.s3.us-west-2.amazonaws.com/blendedsic_nhem/Polar-AMSR2VIIRSBLEND_j01_v01r00_Nhem_0000_2400_d20241210_c20241211.tif",
-      "type": "image/tiff; application=geotiff"
+      "type": "image/tiff; application=geotiff",
+      "title": "Sea Ice Concentration GeoTIFF"
     }
   },
+  "bbox": [
+    -4512000.0,
+    -4512000.0,
+    4512000.0,
+    4512000.0
+  ],
+  "stac_extensions": [],
   "collection": "nesdis_blendedsic_nhem_daily"
 }

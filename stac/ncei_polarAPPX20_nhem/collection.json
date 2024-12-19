@@ -27,7 +27,7 @@
     "links": [
         {
             "rel": "self",
-            "href": "stac_catalog/ncei_polarAPPX20_nhem/collection.json"
+            "href": "./ncei_polarAPPX20_nhem/collection.json"
         },
         {
             "rel": "data",
@@ -55,5 +55,5 @@
             "url": "stratus.ssec.wisc.edu"
         }
     ],
-    "proj:code": "EPSG:3408"
+    "catalog_type": "RELATIVE_PUBLISHED"
 }
